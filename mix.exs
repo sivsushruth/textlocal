@@ -4,7 +4,7 @@ defmodule TextLocal.Mixfile do
   def project do
     [
       app: :text_local,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.4",
       build_embedded: Mix.env == :prod,
       description: description(),
@@ -40,7 +40,8 @@ defmodule TextLocal.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 0.11"},
-      {:poison, "~> 3.1"}
+      {:poison, "~> 3.1"},
+      {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
 end
