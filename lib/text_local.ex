@@ -26,7 +26,7 @@ defmodule TextLocal do
     is_test = get_config(:test)
     case is_test do
       true -> Map.put(data, :test, true)
-      false -> data
+      _ -> data
     end
   end
 
