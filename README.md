@@ -26,7 +26,7 @@ TextLocal.send!(["123456789", "4567890123"], "message content", %{test: true})
 ```
 config :text_local,
   api_key: "XXX",
-  sender: "SENDR",
+  sender: "SENDR"
 
 # or
 

@@ -10,7 +10,7 @@ defmodule TextLocal.Mixfile do
       description: description(),
       package: package(),
       start_permanent: Mix.env == :prod,
-      name: "TextLocal"
+      name: "TextLocal",
       deps: deps()
     ]
   end
