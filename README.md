@@ -38,3 +38,4 @@ config :text_local,
 
 ```
 
+Made with love at [Farmizen](http://farmizen.com/).
