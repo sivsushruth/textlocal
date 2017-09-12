@@ -9,7 +9,7 @@ The package can be installed by adding `text_local` to your list of dependencies
 
 ```elixir
 def deps do
-  [{:text_local, "~> 0.1.0"}]
+  [{:text_local, "~> 0.1.3"}]
 end
 ```
 
