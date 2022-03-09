@@ -33,7 +33,7 @@ defmodule TextLocal do
   defp get_auth_config(%{hash: hash, apikey: apikey, sender: sender, username: username}) do
     case {hash, apikey, sender, username} do
       {hash, _, _, username} when is_binary(hash) and is_binary(username) -> %{hash: hash, sender: sender, username: username}
-      {_, apikey, _, _} when is_binary(apikey) -> %{api_key: api_key, sender: sender}
+      {_, apikey, _, _} when is_binary(apikey) -> %{api_key: apikey, sender: sender}
       _ -> %{}
     end
   end
